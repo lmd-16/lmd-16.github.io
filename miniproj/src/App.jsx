@@ -2,17 +2,8 @@ import { Routes, Route, createBrowserRouter, createRoutesFromElements, RouterPro
 import MainLayout from './layouts/MainLayout';
 import Homepage from './pages/Homepage';
 import About from './pages/About';
-
-// const router = createBrowserRouter(
-//   createRoutesFromElements(
-//     <Routes>
-//       <Route element={<MainLayout />}>
-//           <Route path="/" element={<Welcome />} />
-//           <Route path="/Home" element={<Homepage />} />
-//       </Route>
-//     </Routes>
-//   )
-// );
+import Projects from './pages/Projects';
+import Resume from './pages/Resume';
 
 function App() {
   return(
@@ -20,6 +11,9 @@ function App() {
     <Route element={<MainLayout />}>
         <Route path="/" element={<Homepage />} />
         <Route path="/About" element={<About />}/>
+        <Route path="/Projects" element={<Projects />}/>
+        <Route path="/Resume" elements={<Resume />}/>
+
     </Route>
   </Routes>
   ); 
