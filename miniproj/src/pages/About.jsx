@@ -1,10 +1,30 @@
+import background from '../images/bg4.png'
+import {Link} from 'react-router-dom';
+
+
 const About = () => {
     return (
         <>
-        <h1 class="text-gray-800 text-5xl font-bold mb-5">Welcome!</h1>
-        <p class = "text-gray-600 mb-6">I’m Leeann, a computer science student at Simon Fraser University with a strong mathematics background and a growing interest in the intersection of math and computer science. I’m currently working on exploring different avenues, 
-            such as data science and machine learning. Click the links to see some fun projects!</p>
-
+        <div
+            className="h-screen bg-cover bg-center flex items-center justify-center"
+            style={{ backgroundImage: `url(${background})` }}
+        >
+        <div className="text-center text-green-500 absolute top-[300px] left-[230px] w-80 h-50 overflow-y-scroll bg-blue p-4">I’m Leeann, a computer science student at Simon Fraser University with a strong mathematics background and a growing interest in the intersection of math and computer science. I’m currently working on exploring different avenues, 
+            such as data science and machine learning. Click the link to see some fun projects!
+        </div>
+        <div>
+            <Link to="/Resume">Resume
+                <button class="absolute top-[350px] left-[960px] btn btn-accent px-4 py-2 rounded btn-resume ">Resume</button>
+            </Link>
+            <Link to="/Projects">Projects
+                <button class="absolute top-[250px] left-[960px] btn btn-accent px-4 py-2 rounded btn-projects ">Projects</button>
+            </Link>
+            <Link to="/">Homepage
+                <button class="absolute top-[40px] left-[120px] btn btn-error px-4 py-2 rounded btn-home">Home</button>  
+    
+            </Link>
+        </div>
+        </div>
         </>
     )
 }

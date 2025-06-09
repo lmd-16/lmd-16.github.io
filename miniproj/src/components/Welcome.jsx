@@ -1,22 +1,19 @@
-import logo from '../images/cat-cry.png'
+import background from '../images/bg1.png'
+import { Link } from 'react-router-dom';
 
-import Card from './Card';
 
 const Welcome = () => {
     return (
     <>
-    <Card bg = '--color-info'>
-        <div className = "p-4">
-                <div className="flex items-center justify-center min-h-screen bg-base-200">
-                <div className="text-center">
-
-                <img className="w-16 rounded" src={logo} alt='Logo'/>
-                <h2 className="text-gray-800 text-3xl font-bold mb-3">Welcome to my website! I'm Leeann.</h2>
-                <h1 className="text-gray-600 mb-6">Click the links below to get to know a little about me!</h1>
-                </div>
-            </div>
-            </div>
-    </Card>
+    <div 
+         className="h-screen bg-cover bg-center flex items-center justify-center"
+         style={{ backgroundImage: `url(${background})` }}>
+    <div>
+    <Link to="/About">About                
+        <button className="absolute top-45 left-122 btn btn-success px-4 py-2 rounded" >Click me</button> 
+    </Link>
+    </div>
+    </div>
     </>
 
 
