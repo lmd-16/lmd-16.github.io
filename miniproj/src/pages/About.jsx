@@ -1,4 +1,5 @@
 import background from '../images/bg4.png'
+import Pdf from '../assets/Leeann_D_Resume.pdf'
 import {Link} from 'react-router-dom';
 
 
@@ -13,9 +14,9 @@ const About = () => {
             such as data science and machine learning. Click the link to see some fun projects!
         </div>
         <div>
-            <Link to="/Resume">Resume
+            <a href={Pdf} target="_blank" rel="noopener noreferrer">
                 <button class="absolute top-[350px] left-[960px] btn btn-accent px-4 py-2 rounded btn-resume ">Resume</button>
-            </Link>
+            </a>
             <Link to="/Projects">Projects
                 <button class="absolute top-[250px] left-[960px] btn btn-accent px-4 py-2 rounded btn-projects ">Projects</button>
             </Link>
