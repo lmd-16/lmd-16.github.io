@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 const Insp = () => {
     return (
         <>
-
         <div className="h-screen bg-cover bg-center flex flex-col" style={{ backgroundImage: `url(${background})` }}>
         <section className="pt-40 px-10 flex flex-col items-start max-w-5xl mx-auto text-center">
             <h1 className="text-3xl font-bold mb-2">Welcome to My Portfolio</h1>
