@@ -21,7 +21,7 @@ const About = () => {
                 <button class="absolute top-[250px] left-[960px] btn btn-accent px-4 py-2 rounded btn-projects ">Projects</button>
             </Link>
             <Link to="/">Homepage
-                <button class="absolute top-[40px] left-[120px] btn btn-error px-4 py-2 rounded btn-home">Home</button>  
+                <button class="absolute top-[40px] left-[120px] btn btn-outline btn-accent px-4 py-2 rounded btn-home">Home</button>  
     
             </Link>
         </div>
