@@ -9,8 +9,8 @@ const Welcome = () => {
          className="h-screen bg-cover bg-center flex items-center justify-center"
          style={{ backgroundImage: `url(${background})` }}>
     <div>
-    <Link to="/About">About                
-        <button className="absolute top-45 left-122 btn btn-outline btn-info px-4 py-2 rounded" >Click me</button> 
+    <Link to="/About">               
+        <button className="font-pixel absolute top-45 left-122 btn btn-outline btn-info px-4 py-2 rounded" >Click me</button> 
     </Link>
     </div>
     </div>

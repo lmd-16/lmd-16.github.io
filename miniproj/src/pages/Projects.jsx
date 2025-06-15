@@ -17,7 +17,7 @@ const Projects = () => {
             <a href="https://github.com/lmd-16/Guess-the-flag/tree/main/Desktop/HD3/Guess"target="_blank" rel="noopener noreferrer">
                 <button class="absolute top-[520px] left-[1250px] btn btn-accent px-4 py-2 rounded btn-avl ">Guess the Flag</button>
             </a>
-            <Link to="/About">About
+            <Link to="/About">
                 <button class="absolute top-[90px] left-[30px] px-4 py-2 rounded btn btn-outline btn-accent btn-home">Home</button>
             </Link>
             <footer class="text-xs text-gray-500 absolute top-[760px] left-[930px]">Background image from https://www.ign.com/wikis/celeste/Chapter_2-_Old_Site
