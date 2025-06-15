@@ -1,10 +1,11 @@
 import background from '../images/bg3.png';
 import { Link } from 'react-router-dom';
+import Pdf from '../assets/Leeann_D_Resume.pdf'
 
 const Projects = () => {
     return (
         <>
-        <div class="navbar bg-base-100">
+        <div class="navbar bg-black">
         <div class="navbar-start">
             <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -22,7 +23,9 @@ const Projects = () => {
                 </li>
             </ul>
             </div>
-            <a class="btn btn-ghost normal-case text-l">Home</a>
+            <Link to="/">
+                <a class="btn btn-ghost normal-case text-l">Home</a>
+            </Link>
         </div>
         <div class="navbar-end hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
@@ -30,7 +33,9 @@ const Projects = () => {
                 <details>
                 <summary>Menu</summary>
                 <ul class="p-1">
-                    <li><a>About</a></li>
+                    <Link to="/About">
+                        <li><a>About</a></li>
+                    </Link>
                     <li><a>Resume</a></li>
                 </ul>
                 </details>
