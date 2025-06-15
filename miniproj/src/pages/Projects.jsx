@@ -18,7 +18,7 @@ const Projects = () => {
                 <button class="absolute top-[520px] left-[1250px] btn btn-accent px-4 py-2 rounded btn-avl ">Guess the Flag</button>
             </a>
             <Link to="/About">About
-                <button class="absolute top-[90px] left-[30px] px-4 py-2 rounded btn btn-error btn-home">Home</button>
+                <button class="absolute top-[90px] left-[30px] px-4 py-2 rounded btn btn-outline btn-accent btn-home">Home</button>
             </Link>
             <footer class="text-xs text-gray-500 absolute top-[760px] left-[930px]">Background image from https://www.ign.com/wikis/celeste/Chapter_2-_Old_Site
             </footer>        
