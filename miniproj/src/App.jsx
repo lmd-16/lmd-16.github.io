@@ -3,7 +3,6 @@ import MainLayout from './layouts/MainLayout';
 import Homepage from './pages/Homepage';
 import About from './pages/About';
 import Projects from './pages/Projects';
-import Resume from './pages/Resume';
 import Profile from './pages/Profile';
 
 function App() {
@@ -13,7 +12,6 @@ function App() {
         <Route path="/" element={<Homepage />} />
         <Route path="/About" element={<About />}/>
         <Route path="/Projects" element={<Projects />}/>
-        <Route path="/Resume" elements={<Resume />}/>
         <Route path="/Profile" elements={<Profile />}/>
 
     </Route>

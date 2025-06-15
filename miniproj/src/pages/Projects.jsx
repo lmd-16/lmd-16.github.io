@@ -20,7 +20,9 @@ const Projects = () => {
             <Link to="/About">About
                 <button class="absolute top-[90px] left-[30px] px-4 py-2 rounded btn btn-error btn-home">Home</button>
             </Link>
-        </div>
+            <footer class="text-xs text-gray-500 absolute top-[760px] left-[930px]">Background image from https://www.ign.com/wikis/celeste/Chapter_2-_Old_Site
+            </footer>        
+            </div>
         </>
     );
 };
