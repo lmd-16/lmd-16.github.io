@@ -49,6 +49,11 @@ const Projects = () => {
             className="h-screen bg-cover bg-center flex items-center justify-center"
             style={{ backgroundImage: `url(${background})` }}
         >
+            <img
+            src={background}
+            alt="Celeste Chapter 2: Old Site background"
+            className="hidden"
+            />
             <a href="https://github.com/lmd-16/Bubble-Sort-Visualizer" target="_blank" rel="noopener noreferrer">                
                 <button class="absolute top-[350px] left-[250px] btn btn-accent rounded btn-bubble">Bubble Sort Visualizer</button> 
             </a>

@@ -8,8 +8,14 @@ const About = () => {
         <>
         <div
             className="h-screen bg-cover bg-center flex items-center justify-center"
-            style={{ backgroundImage: `url(${background})` }}
+            style={{ backgroundImage: `url(${background})`}}
+            
         >
+        <img
+        src={background}
+        alt="Celeste Chapter 2: Old Site background"
+        className="hidden"
+        />
         <div className="font-pixel text-xs text-center text-blue-300 absolute top-[300px] left-[230px] w-80 h-50 overflow-y-scroll bg-blue p-4">I’m Leeann, a computer science student at Simon Fraser University with a strong mathematics background and a growing interest in the intersection of math and computer science. I’m currently working on exploring different avenues, 
             such as data science and machine learning. Click the link to see some fun projects!
         </div>
