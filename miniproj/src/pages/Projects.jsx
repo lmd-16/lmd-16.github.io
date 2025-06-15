@@ -24,7 +24,7 @@ const Projects = () => {
             <button className="text-xs absolute top-[350px] left-[250px] btn btn-accent rounded btn-bubble">Bubble Sort Visualizer</button> 
         </a>
         <a href="https://github.com/lmd-16/AVL-Tree-Word-Counter"target="_blank" rel="noopener noreferrer">
-            <button className="text-xs absolute top-[600px] left-[570px] btn btn-accent px-4 py-2 rounded btn-glag">AVL Tree Word Sorter </button>
+            <button className="text-xs absolute top-[600px] left-[570px] btn btn-accent px-4 py-2 rounded btn-glag">AVL Tree Word Counter </button>
         </a>
         <a href="https://github.com/lmd-16/Guess-the-flag/tree/main/Desktop/HD3/Guess"target="_blank" rel="noopener noreferrer">
             <button className="text-xs absolute top-[620px] left-[1150px] btn btn-accent px-4 py-2 rounded btn-avl ">Guess the Flag</button>
