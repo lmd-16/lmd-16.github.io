@@ -26,6 +26,9 @@ const About = () => {
             </Link>
         </div>
         </div>
+        <footer class="text-xs text-gray-500 absolute top-[760px] left-[930px]">Background image from https://www.ign.com/wikis/celeste/Chapter_2-_Old_Site
+        </footer>        
+
         </>
     )
 }
