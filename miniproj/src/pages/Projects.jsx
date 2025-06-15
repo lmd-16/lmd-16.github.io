@@ -5,73 +5,41 @@ import Pdf from '../assets/Leeann_D_Resume.pdf'
 const Projects = () => {
     return (
         <>
-        <div class="navbar bg-black">
-        <div class="navbar-start">
-            <div class="dropdown">
-            <label tabindex="0" class="btn btn-ghost lg:hidden">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
-                </svg>
-            </label>
-            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                <li>
-                <a>Menu</a>
-                <ul class="p-2">
-                    <li><a>About</a></li>
-                    <li><a>Resume</a></li>
-                    <li><a>Inspiration</a></li>
-                </ul>
-                </li>
-            </ul>
-            </div>
-            <Link to="/">
-                <a class="btn btn-ghost normal-case text-l">Home</a>
-            </Link>
-        </div>
-        <div class="navbar-end hidden lg:flex">
-            <ul class="menu menu-horizontal px-1">
-            <li tabindex="0">
-                <details>
-                <summary>Menu</summary>
-                <ul class="p-1">
-                    <Link to="/About">
-                        <li><a>About</a></li>
-                    </Link>
-                    <a href={Pdf} target="_blank" rel="noopener noreferrer">
-                    <li><a>Resume</a></li>
-                    </a>
-                    <Link to="/Insp">
-                    <li><a className= "text-xs">Inspiration</a></li>
-                    </Link>
+    <div className="navbar bg-black text-white px-4">
+      <div className="flex-1">
+        <Link to="/" className="text-xl font-bold hover:text-blue-300">
+          Home
+        </Link>
+      </div>
 
-                </ul>
-                </details>
-            </li>
-            </ul>
-        </div>
-        </div>        
+      <div className="hidden lg:flex space-x-4">
+        <Link to="/About" className="hover:text-blue-300">
+          About
+        </Link>
+        <a href= {Pdf} target="_blank" rel="noopener noreferrer" className="hover:text-blue-300">
+          Resume
+        </a>
+        <Link to="/Insp" className="hover:text-blue-300">
+          Inspiration
+        </Link>
+      </div>
+      </div>
         <div
             className="h-screen bg-cover bg-center flex items-center justify-center"
-            style={{ backgroundImage: `url(${background})` }}
-        >
-            <img
-            src={background}
-            alt="Celeste Chapter 2: Old Site background"
-            className="hidden"
-            />
-
+            style={{ backgroundImage: `url(${background})` }}>
+            <img src={background} alt="Celeste Chapter 2: Old Site background" className="hidden" />
             <a href="https://github.com/lmd-16/Bubble-Sort-Visualizer" target="_blank" rel="noopener noreferrer">                
-                <button class="text-xs absolute top-[350px] left-[250px] btn btn-accent rounded btn-bubble">Bubble Sort Visualizer</button> 
+                <button className="text-xs absolute top-[350px] left-[250px] btn btn-accent rounded btn-bubble">Bubble Sort Visualizer</button> 
             </a>
             <a href="https://github.com/lmd-16/AVL-Tree-Word-Counter"target="_blank" rel="noopener noreferrer">
-                <button class="text-xs absolute top-[600px] left-[570px] btn btn-accent px-4 py-2 rounded btn-glag">AVL Tree Word Sorter </button>
+                <button className="text-xs absolute top-[600px] left-[570px] btn btn-accent px-4 py-2 rounded btn-glag">AVL Tree Word Sorter </button>
             </a>
             <a href="https://github.com/lmd-16/Guess-the-flag/tree/main/Desktop/HD3/Guess"target="_blank" rel="noopener noreferrer">
-                <button class="text-xs absolute top-[620px] left-[1150px] btn btn-accent px-4 py-2 rounded btn-avl ">Guess the Flag</button>
+                <button className="text-xs absolute top-[620px] left-[1150px] btn btn-accent px-4 py-2 rounded btn-avl ">Guess the Flag</button>
             </a>
-            <footer class="text-xs text-gray-500 absolute top-[760px] left-[920px]">Background image from https://www.ign.com/wikis/celeste/Chapter_2-_Old_Site
+            <footer className="text-xs text-gray-500 absolute top-[760px] left-[920px]">Background image from https://www.ign.com/wikis/celeste/Chapter_2-_Old_Site
             </footer>        
-            </div>
+        </div>
         </>
     );
 };
