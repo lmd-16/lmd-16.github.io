@@ -36,7 +36,9 @@ const Projects = () => {
                     <Link to="/About">
                         <li><a>About</a></li>
                     </Link>
+                    <a href={Pdf} target="_blank" rel="noopener noreferrer">
                     <li><a>Resume</a></li>
+                    </a>
                 </ul>
                 </details>
             </li>
