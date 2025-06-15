@@ -1,4 +1,4 @@
-import background from '../images/bg6.png';
+import background from '../images/bg3.png';
 import { Link } from 'react-router-dom';
 import Pdf from '../assets/Leeann_D_Resume.pdf'
 
@@ -59,11 +59,17 @@ const Projects = () => {
             alt="Celeste Chapter 2: Old Site background"
             className="hidden"
             />
-            
-            <a href="https://github.com/lmd-16/Guess-the-flag/tree/main/Desktop/HD3/Guess"target="_blank" rel="noopener noreferrer">
-                <button class="absolute top-[620px] left-[1150px] btn btn-accent px-4 py-2 rounded btn-avl ">Guess the Flag</button>
+
+            <a href="https://github.com/lmd-16/Bubble-Sort-Visualizer" target="_blank" rel="noopener noreferrer">                
+                <button class="text-xs absolute top-[350px] left-[250px] btn btn-accent rounded btn-bubble">Bubble Sort Visualizer</button> 
             </a>
-            <footer class="text-[6px] text-gray-500 absolute top-[760px] left-[730px]">Background image from https://www.ign.com/wikis/celeste/Chapter_2-_Old_Site
+            <a href="https://github.com/lmd-16/AVL-Tree-Word-Counter"target="_blank" rel="noopener noreferrer">
+                <button class="text-xs absolute top-[600px] left-[570px] btn btn-accent px-4 py-2 rounded btn-glag">AVL Tree Word Sorter </button>
+            </a>
+            <a href="https://github.com/lmd-16/Guess-the-flag/tree/main/Desktop/HD3/Guess"target="_blank" rel="noopener noreferrer">
+                <button class="text-xs absolute top-[620px] left-[1150px] btn btn-accent px-4 py-2 rounded btn-avl ">Guess the Flag</button>
+            </a>
+            <footer class="text-xs text-gray-500 absolute top-[760px] left-[920px]">Background image from https://www.ign.com/wikis/celeste/Chapter_2-_Old_Site
             </footer>        
             </div>
         </>
