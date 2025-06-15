@@ -10,7 +10,7 @@ const Welcome = () => {
          style={{ backgroundImage: `url(${background})` }}>
     <div>
     <Link to="/About">About                
-        <button className="absolute top-45 left-122 btn btn-success px-4 py-2 rounded" >Click me</button> 
+        <button className="absolute top-45 left-122 btn btn-soft btn-warning px-4 py-2 rounded" >Click me</button> 
     </Link>
     </div>
     </div>
