@@ -15,10 +15,10 @@ const About = () => {
         </div>
         <div>
             <a href={Pdf} target="_blank" rel="noopener noreferrer">
-                <button class="absolute top-[350px] left-[930px] btn btn-accent px-4 py-2 rounded btn-resume ">Resume</button>
+                <button class="absolute top-[350px] left-[940px] btn btn-accent px-4 py-2 rounded btn-resume ">Resume</button>
             </a>
             <Link to="/Projects">
-                <button class="absolute top-[250px] left-[915px] btn btn-accent px-4 py-2 rounded btn-projects ">Projects</button>
+                <button class="absolute top-[250px] left-[930px] btn btn-accent px-4 py-2 rounded btn-projects ">Projects</button>
             </Link>
             <Link to="/">
                 <button class="absolute top-[40px] left-[120px] btn btn-outline btn-accent px-4 py-2 rounded btn-home">Home</button>  
